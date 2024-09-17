@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+  }
+  .card {
+    background-color: #1e1e1e; /* Dark card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+  }
+  .header {
+    text-align: center; /* Center align header content */
+  }
+  .profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #e0e0e0; /* Light border color */
+  }
+  h1, h3 {
+    margin: 5px 0;
+  }
+  .content ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+  }
+  .content li:before {
+    content: "•";
+    color: #ff4081; /* Accent color */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .buttons a {
+    background-color: #1e88e5; /* Button color */
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    margin: 0 5px; /* Add margin between buttons */
+    transition: background-color 0.3s;
+  }
+  .buttons a:hover {
+    background-color: #1565c0; /* Darker on hover */
+  }
+  footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    text-align: center;
+    color: #b0b0b0; /* Lighter text color */
+  }
+  
